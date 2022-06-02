@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>To-Do App</h1>
+    <div class="container">
+      <div class="wrap">
+        <input type="text" name="text" id="text" /><span class="btn"
+          ><button class="addBtn" id="addBtn">Add</button></span
+        >
+      </div>
+
+      <div class="main">
+        <div class="pendingList box">
+          <h2>Pending</h2>
+          <span id="pending" class="pending"></span>
+        </div>
+
+        <div class="doneList box">
+          <h2>Done</h2>
+          <span id="done" class="done"></span>
+          <br />
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
